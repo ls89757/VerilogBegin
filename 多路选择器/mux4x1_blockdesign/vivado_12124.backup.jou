@@ -1,0 +1,86 @@
+#-----------------------------------------------------------
+# Vivado v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Mon May 13 00:11:56 2019
+# Process ID: 12124
+# Current directory: D:/SCL_VERILOG/project_4
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent6604 D:\SCL_VERILOG\project_4\project_4.xpr
+# Log file: D:/SCL_VERILOG/project_4/vivado.log
+# Journal file: D:/SCL_VERILOG/project_4\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/SCL_VERILOG/project_4/project_4.xpr
+open_bd_design {D:/SCL_VERILOG/project_4/project_4.srcs/sources_1/bd/mux4x1/mux4x1.bd}
+reset_run impl_1 -prev_step 
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+wait_on_run impl_1
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+wait_on_run synth_1
+open_run synth_1 -name synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+wait_on_run impl_1
+open_hw
+connect_hw_server
+open_hw_target
+set_property PROGRAM.FILE {D:/SCL_VERILOG/project_4/project_4.runs/impl_1/mux4x1.bit} [get_hw_devices xc7a100t_0]
+current_hw_device [get_hw_devices xc7a100t_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a100t_0] 0]
+set_property PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property PROGRAM.FILE {D:/SCL_VERILOG/project_4/project_4.runs/impl_1/mux4x1.bit} [get_hw_devices xc7a100t_0]
+program_hw_devices [get_hw_devices xc7a100t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
+close_hw
+open_bd_design {D:/SCL_VERILOG/project_4/project_4.srcs/sources_1/bd/mux4x1/mux4x1.bd}
+set_property location {-410 -405} [get_bd_ports W3]
+set_property location {-410 -427} [get_bd_ports W3]
+set_property location {-400 -613} [get_bd_ports W0]
+set_property location {-406 -594} [get_bd_ports W0]
+set_property location {-406 -529} [get_bd_ports W1]
+set_property location {-406 -481} [get_bd_ports W2]
+set_property location {-422 -144} [get_bd_ports S1]
+set_property location {1 -273 -122} [get_bd_cells notGate_3bit_1]
+set_property location {2 11 -297} [get_bd_cells andGate_3bit_2]
+set_property location {2 26 -321} [get_bd_cells andGate_3bit_2]
+set_property location {2 36 -205} [get_bd_cells andGate_3bit_3]
+set_property screensize {101 72} [get_bd_cells notGate_3bit_1]
+set_property screensize {76 38} [get_bd_cells notGate_3bit_0]
+set_property screensize {64 14} [get_bd_cells notGate_3bit_1]
+set_property screensize {89 112} [get_bd_cells andGate_3bit_1]
+set_property screensize {102 120} [get_bd_cells andGate_3bit_1]
+set_property screensize {111 98} [get_bd_cells andGate_3bit_3]
+create_bd_cell -type ip -vlnv xilinx.com:user:andGate_3bit:1.0 andGate_3bit_4
+delete_bd_objs [get_bd_cells andGate_3bit_4]
+set_property location {2 -1 -297} [get_bd_cells andGate_3bit_2]
+set_property screensize {103 100} [get_bd_cells notGate_3bit_1]
+set_property screensize {103 100} [get_bd_cells notGate_3bit_0]
+set_property location {497 -384} [get_bd_ports f]
+update_ip_catalog -rebuild -scan_changes
+report_ip_status -name ip_status
+set_property screensize {194 86} [get_bd_cells andGate_3bit_3]
+set_property screensize {144 80} [get_bd_cells andGate_3bit_3]
+set_property screensize {111 90} [get_bd_cells andGate_3bit_3]
+set_property screensize {99 96} [get_bd_cells andGate_3bit_3]
+set_property screensize {96 84} [get_bd_cells andGate_3bit_2]
+set_property location {2 10 -181} [get_bd_cells andGate_3bit_3]
+set_property screensize {98 60} [get_bd_cells andGate_3bit_1]
+set_property location {2 17 -428} [get_bd_cells andGate_3bit_1]
+set_property screensize {110 62} [get_bd_cells andGate_3bit_0]
+set_property screensize {103 88} [get_bd_cells andGate_3bit_0]
+set_property location {2 20 -545} [get_bd_cells andGate_3bit_0]
+set_property screensize {114 108} [get_bd_cells orGate_3bit_2_0]
+set_property location {1 -247 -635} [get_bd_cells notGate_3bit_0]
+set_property location {1 -278 -502} [get_bd_cells notGate_3bit_1]
+set_property location {-436 -245} [get_bd_ports W3]
+set_property location {-426 -297} [get_bd_ports W2]
+set_property location {-423 -373} [get_bd_ports W1]
+set_property location {-417 -418} [get_bd_ports W0]
+set_property location {-420 -612} [get_bd_ports S0]
+set_property location {-426 -547} [get_bd_ports S1]
+set_property location {-422 -506} [get_bd_ports S1]
+set_property location {-417 -498} [get_bd_ports S1]
+set_property location {1 -246 -615} [get_bd_cells notGate_3bit_0]
+set_property location {-418 -483} [get_bd_ports S1]
+save_bd_design

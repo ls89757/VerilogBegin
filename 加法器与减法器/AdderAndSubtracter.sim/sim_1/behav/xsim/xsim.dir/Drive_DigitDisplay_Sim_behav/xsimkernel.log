@@ -1,0 +1,7 @@
+Running: xsim.dir/Drive_DigitDisplay_Sim_behav/xsimk.exe -simmode gui -wdb Drive_DigitDisplay_Sim_behav.wdb -simrunnum 0 -socket 51987
+Design successfully loaded
+Design Loading Memory Usage: 5428 KB (Peak: 5428 KB)
+Design Loading CPU Usage: 62 ms
+Simulation completed
+Simulation Memory Usage: 6024 KB (Peak: 6024 KB)
+Simulation CPU Usage: 108 ms

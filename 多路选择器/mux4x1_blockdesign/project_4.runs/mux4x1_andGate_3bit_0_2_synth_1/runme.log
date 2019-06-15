@@ -1,0 +1,4 @@
+
+*** Running vivado
+    with args -log mux4x1_andGate_3bit_0_2.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source mux4x1_andGate_3bit_0_2.tcl
+

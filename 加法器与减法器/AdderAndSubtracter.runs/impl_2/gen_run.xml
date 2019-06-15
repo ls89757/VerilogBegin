@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="impl_2" LaunchPart="xc7a100tcsg324-1" LaunchTime="1557462961">
+  <File Type="BITSTR-BMM" Name="AdderSubtracterDisplay_bd.bmm"/>
+  <File Type="ROUTE-PWR" Name="AdderSubtracterDisplay_power_routed.rpt"/>
+  <File Type="PA-TCL" Name="AdderSubtracterDisplay.tcl"/>
+  <File Type="OPT-DCP" Name="AdderSubtracterDisplay_opt.dcp"/>
+  <File Type="ROUTE-PWR-SUM" Name="AdderSubtracterDisplay_power_summary_routed.pb"/>
+  <File Type="REPORTS-TCL" Name="AdderSubtracterDisplay_reports.tcl"/>
+  <File Type="OPT-DRC" Name="AdderSubtracterDisplay_drc_opted.rpt"/>
+  <File Type="OPT-HWDEF" Name="AdderSubtracterDisplay.hwdef"/>
+  <File Type="PWROPT-DCP" Name="AdderSubtracterDisplay_pwropt.dcp"/>
+  <File Type="PLACE-DCP" Name="AdderSubtracterDisplay_placed.dcp"/>
+  <File Type="PLACE-IO" Name="AdderSubtracterDisplay_io_placed.rpt"/>
+  <File Type="PLACE-UTIL" Name="AdderSubtracterDisplay_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL-PB" Name="AdderSubtracterDisplay_utilization_placed.pb"/>
+  <File Type="PLACE-CTRL" Name="AdderSubtracterDisplay_control_sets_placed.rpt"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="AdderSubtracterDisplay_incremental_reuse_pre_placed.rpt"/>
+  <File Type="BG-BGN" Name="AdderSubtracterDisplay.bgn"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="AdderSubtracterDisplay_postplace_pwropt.dcp"/>
+  <File Type="BG-BIN" Name="AdderSubtracterDisplay.bin"/>
+  <File Type="PHYSOPT-DCP" Name="AdderSubtracterDisplay_physopt.dcp"/>
+  <File Type="BITSTR-MSK" Name="AdderSubtracterDisplay.msk"/>
+  <File Type="ROUTE-ERROR-DCP" Name="AdderSubtracterDisplay_routed_error.dcp"/>
+  <File Type="ROUTE-DCP" Name="AdderSubtracterDisplay_routed.dcp"/>
+  <File Type="ROUTE-BLACKBOX-DCP" Name="AdderSubtracterDisplay_routed_bb.dcp"/>
+  <File Type="ROUTE-DRC" Name="AdderSubtracterDisplay_drc_routed.rpt"/>
+  <File Type="ROUTE-DRC-PB" Name="AdderSubtracterDisplay_drc_routed.pb"/>
+  <File Type="BITSTR-LTX" Name="AdderSubtracterDisplay.ltx"/>
+  <File Type="ROUTE-DRC-RPX" Name="AdderSubtracterDisplay_drc_routed.rpx"/>
+  <File Type="BITSTR-MMI" Name="AdderSubtracterDisplay.mmi"/>
+  <File Type="ROUTE-METHODOLOGY-DRC" Name="AdderSubtracterDisplay_methodology_drc_routed.rpt"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="AdderSubtracterDisplay_methodology_drc_routed.rpx"/>
+  <File Type="BITSTR-SYSDEF" Name="AdderSubtracterDisplay.sysdef"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="AdderSubtracterDisplay_methodology_drc_routed.pb"/>
+  <File Type="ROUTE-PWR-RPX" Name="AdderSubtracterDisplay_power_routed.rpx"/>
+  <File Type="ROUTE-STATUS" Name="AdderSubtracterDisplay_route_status.rpt"/>
+  <File Type="ROUTE-STATUS-PB" Name="AdderSubtracterDisplay_route_status.pb"/>
+  <File Type="ROUTE-TIMINGSUMMARY" Name="AdderSubtracterDisplay_timing_summary_routed.rpt"/>
+  <File Type="ROUTE-TIMING-PB" Name="AdderSubtracterDisplay_timing_summary_routed.pb"/>
+  <File Type="ROUTE-TIMING-RPX" Name="AdderSubtracterDisplay_timing_summary_routed.rpx"/>
+  <File Type="RDI-RDI" Name="AdderSubtracterDisplay.vdi"/>
+  <File Type="ROUTE-CLK" Name="AdderSubtracterDisplay_clock_utilization_routed.rpt"/>
+  <File Type="ROUTE-BUS-SKEW" Name="AdderSubtracterDisplay_bus_skew_routed.rpt"/>
+  <File Type="ROUTE-BUS-SKEW-PB" Name="AdderSubtracterDisplay_bus_skew_routed.pb"/>
+  <File Type="ROUTE-BUS-SKEW-RPX" Name="AdderSubtracterDisplay_bus_skew_routed.rpx"/>
+  <File Type="POSTROUTE-PHYSOPT-DCP" Name="AdderSubtracterDisplay_postroute_physopt.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="AdderSubtracterDisplay_postroute_physopt_bb.dcp"/>
+  <File Type="BG-BIT" Name="AdderSubtracterDisplay.bit"/>
+  <File Type="BITSTR-RBT" Name="AdderSubtracterDisplay.rbt"/>
+  <File Type="BITSTR-NKY" Name="AdderSubtracterDisplay.nky"/>
+  <File Type="BG-DRC" Name="AdderSubtracterDisplay.drc"/>
+  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/new/Adder5bit.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/DriveDigitDisplay.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/FullAdder.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/HalfAdd.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/AdderSubtracterDisplay.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/Adder4bit.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/AdderDisplay.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="AdderSubtracterDisplay"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PSRCDIR/constrs_1/new/cons.xdc">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="TargetConstrsFile" Val="$PSRCDIR/constrs_1/new/cons.xdc"/>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="utils" Type="Utils" RelSrcDir="$PSRCDIR/utils_1">
+    <Filter Type="Utils"/>
+    <Config>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2018"/>
+    <Step Id="init_design"/>
+    <Step Id="opt_design"/>
+    <Step Id="power_opt_design"/>
+    <Step Id="place_design"/>
+    <Step Id="post_place_power_opt_design"/>
+    <Step Id="phys_opt_design"/>
+    <Step Id="route_design"/>
+    <Step Id="post_route_phys_opt_design"/>
+    <Step Id="write_bitstream"/>
+  </Strategy>
+</GenRun>

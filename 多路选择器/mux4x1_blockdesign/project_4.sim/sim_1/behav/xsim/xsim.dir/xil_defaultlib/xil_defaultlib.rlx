@@ -1,0 +1,17 @@
+0.6
+2018.3
+Dec  7 2018
+00:33:28
+C:/Users/SCL/Desktop/SCL_VERILOG/project_4/project_4.ip_user_files/bd/mux4x1/ip/mux4x1_andGate_3bit_0_0/sim/mux4x1_andGate_3bit_0_0.v,1556211346,verilog,,C:/Users/SCL/Desktop/SCL_VERILOG/project_4/project_4.ip_user_files/bd/mux4x1/ip/mux4x1_andGate_3bit_0_1/sim/mux4x1_andGate_3bit_0_1.v,,mux4x1_andGate_3bit_0_0,,,,,,,,
+C:/Users/SCL/Desktop/SCL_VERILOG/project_4/project_4.ip_user_files/bd/mux4x1/ip/mux4x1_andGate_3bit_0_1/sim/mux4x1_andGate_3bit_0_1.v,1556211346,verilog,,C:/Users/SCL/Desktop/SCL_VERILOG/project_4/project_4.ip_user_files/bd/mux4x1/ip/mux4x1_andGate_3bit_0_2/sim/mux4x1_andGate_3bit_0_2.v,,mux4x1_andGate_3bit_0_1,,,,,,,,
+C:/Users/SCL/Desktop/SCL_VERILOG/project_4/project_4.ip_user_files/bd/mux4x1/ip/mux4x1_andGate_3bit_0_2/sim/mux4x1_andGate_3bit_0_2.v,1556211346,verilog,,C:/Users/SCL/Desktop/SCL_VERILOG/project_4/project_4.ip_user_files/bd/mux4x1/ip/mux4x1_andGate_3bit_0_3/sim/mux4x1_andGate_3bit_0_3.v,,mux4x1_andGate_3bit_0_2,,,,,,,,
+C:/Users/SCL/Desktop/SCL_VERILOG/project_4/project_4.ip_user_files/bd/mux4x1/ip/mux4x1_andGate_3bit_0_3/sim/mux4x1_andGate_3bit_0_3.v,1556211346,verilog,,C:/Users/SCL/Desktop/SCL_VERILOG/project_4/project_4.ip_user_files/bd/mux4x1/ipshared/124e/src/orGate_3bit_2.v,,mux4x1_andGate_3bit_0_3,,,,,,,,
+C:/Users/SCL/Desktop/SCL_VERILOG/project_4/project_4.ip_user_files/bd/mux4x1/ip/mux4x1_notGate_3bit_0_0/sim/mux4x1_notGate_3bit_0_0.v,1556211346,verilog,,C:/Users/SCL/Desktop/SCL_VERILOG/project_4/project_4.ip_user_files/bd/mux4x1/ip/mux4x1_notGate_3bit_0_1/sim/mux4x1_notGate_3bit_0_1.v,,mux4x1_notGate_3bit_0_0,,,,,,,,
+C:/Users/SCL/Desktop/SCL_VERILOG/project_4/project_4.ip_user_files/bd/mux4x1/ip/mux4x1_notGate_3bit_0_1/sim/mux4x1_notGate_3bit_0_1.v,1556211346,verilog,,C:/Users/SCL/Desktop/SCL_VERILOG/project_4/project_4.ip_user_files/bd/mux4x1/ipshared/95d3/src/andGate_3bit.v,,mux4x1_notGate_3bit_0_1,,,,,,,,
+C:/Users/SCL/Desktop/SCL_VERILOG/project_4/project_4.ip_user_files/bd/mux4x1/ip/mux4x1_orGate_3bit_2_0_0/sim/mux4x1_orGate_3bit_2_0_0.v,1556211346,verilog,,C:/Users/SCL/Desktop/SCL_VERILOG/project_4/project_4.ip_user_files/bd/mux4x1/sim/mux4x1.v,,mux4x1_orGate_3bit_2_0_0,,,,,,,,
+C:/Users/SCL/Desktop/SCL_VERILOG/project_4/project_4.ip_user_files/bd/mux4x1/ipshared/124e/src/orGate_3bit_2.v,1556211346,verilog,,C:/Users/SCL/Desktop/SCL_VERILOG/project_4/project_4.ip_user_files/bd/mux4x1/ip/mux4x1_orGate_3bit_2_0_0/sim/mux4x1_orGate_3bit_2_0_0.v,,orGate_3bit_2,,,,,,,,
+C:/Users/SCL/Desktop/SCL_VERILOG/project_4/project_4.ip_user_files/bd/mux4x1/ipshared/9540/src/notGate_3bit.v,1556211346,verilog,,C:/Users/SCL/Desktop/SCL_VERILOG/project_4/project_4.ip_user_files/bd/mux4x1/ip/mux4x1_notGate_3bit_0_0/sim/mux4x1_notGate_3bit_0_0.v,,notGate_3bit,,,,,,,,
+C:/Users/SCL/Desktop/SCL_VERILOG/project_4/project_4.ip_user_files/bd/mux4x1/ipshared/95d3/src/andGate_3bit.v,1556211346,verilog,,C:/Users/SCL/Desktop/SCL_VERILOG/project_4/project_4.ip_user_files/bd/mux4x1/ip/mux4x1_andGate_3bit_0_0/sim/mux4x1_andGate_3bit_0_0.v,,andGate_3bit,,,,,,,,
+C:/Users/SCL/Desktop/SCL_VERILOG/project_4/project_4.ip_user_files/bd/mux4x1/sim/mux4x1.v,1559014090,verilog,,C:/Users/SCL/Desktop/SCL_VERILOG/project_4/project_4.srcs/sim_1/new/mux4x1_sim.v,,mux4x1,,,,,,,,
+C:/Users/SCL/Desktop/SCL_VERILOG/project_4/project_4.sim/sim_1/behav/xsim/glbl.v,1544155481,verilog,,,,glbl,,,,,,,,
+C:/Users/SCL/Desktop/SCL_VERILOG/project_4/project_4.srcs/sim_1/new/mux4x1_sim.v,1559014778,verilog,,,,mux4x1_sim,,,,,,,,

@@ -1,0 +1,170 @@
+{
+  "design": {
+    "design_info": {
+      "boundary_crc": "0x9FC769BD9FC769BD",
+      "device": "xc7a100tcsg324-1",
+      "name": "mux4x1",
+      "synth_flow_mode": "Hierarchical",
+      "tool_version": "2018.3",
+      "validated": "true"
+    },
+    "design_tree": {
+      "notGate_3bit_0": "",
+      "notGate_3bit_1": "",
+      "andGate_3bit_0": "",
+      "andGate_3bit_1": "",
+      "andGate_3bit_2": "",
+      "andGate_3bit_3": "",
+      "orGate_3bit_2_0": ""
+    },
+    "ports": {
+      "W0": {
+        "direction": "I",
+        "left": "2",
+        "right": "0"
+      },
+      "W1": {
+        "direction": "I",
+        "left": "2",
+        "right": "0"
+      },
+      "W2": {
+        "direction": "I",
+        "left": "2",
+        "right": "0"
+      },
+      "W3": {
+        "direction": "I",
+        "left": "2",
+        "right": "0"
+      },
+      "S0": {
+        "direction": "I"
+      },
+      "S1": {
+        "direction": "I"
+      },
+      "f": {
+        "direction": "O",
+        "left": "2",
+        "right": "0"
+      }
+    },
+    "components": {
+      "notGate_3bit_0": {
+        "vlnv": "xilinx.com:user:notGate_3bit:1.0",
+        "xci_name": "mux4x1_notGate_3bit_0_0"
+      },
+      "notGate_3bit_1": {
+        "vlnv": "xilinx.com:user:notGate_3bit:1.0",
+        "xci_name": "mux4x1_notGate_3bit_0_1"
+      },
+      "andGate_3bit_0": {
+        "vlnv": "xilinx.com:user:andGate_3bit:1.0",
+        "xci_name": "mux4x1_andGate_3bit_0_0"
+      },
+      "andGate_3bit_1": {
+        "vlnv": "xilinx.com:user:andGate_3bit:1.0",
+        "xci_name": "mux4x1_andGate_3bit_0_1"
+      },
+      "andGate_3bit_2": {
+        "vlnv": "xilinx.com:user:andGate_3bit:1.0",
+        "xci_name": "mux4x1_andGate_3bit_0_2"
+      },
+      "andGate_3bit_3": {
+        "vlnv": "xilinx.com:user:andGate_3bit:1.0",
+        "xci_name": "mux4x1_andGate_3bit_0_3"
+      },
+      "orGate_3bit_2_0": {
+        "vlnv": "xilinx.com:user:orGate_3bit_2:1.0",
+        "xci_name": "mux4x1_orGate_3bit_2_0_0"
+      }
+    },
+    "nets": {
+      "S0_1": {
+        "ports": [
+          "S0",
+          "notGate_3bit_0/a",
+          "andGate_3bit_1/a",
+          "andGate_3bit_3/a"
+        ]
+      },
+      "notGate_3bit_0_b": {
+        "ports": [
+          "notGate_3bit_0/b",
+          "andGate_3bit_0/a",
+          "andGate_3bit_2/a"
+        ]
+      },
+      "S1_1": {
+        "ports": [
+          "S1",
+          "notGate_3bit_1/a",
+          "andGate_3bit_2/c",
+          "andGate_3bit_3/c"
+        ]
+      },
+      "notGate_3bit_1_b": {
+        "ports": [
+          "notGate_3bit_1/b",
+          "andGate_3bit_0/c",
+          "andGate_3bit_1/c"
+        ]
+      },
+      "andGate_3bit_0_d": {
+        "ports": [
+          "andGate_3bit_0/d",
+          "orGate_3bit_2_0/a"
+        ]
+      },
+      "andGate_3bit_1_d": {
+        "ports": [
+          "andGate_3bit_1/d",
+          "orGate_3bit_2_0/b"
+        ]
+      },
+      "andGate_3bit_2_d": {
+        "ports": [
+          "andGate_3bit_2/d",
+          "orGate_3bit_2_0/c"
+        ]
+      },
+      "andGate_3bit_3_d": {
+        "ports": [
+          "andGate_3bit_3/d",
+          "orGate_3bit_2_0/d"
+        ]
+      },
+      "W0_1": {
+        "ports": [
+          "W0",
+          "andGate_3bit_0/b"
+        ]
+      },
+      "W1_1": {
+        "ports": [
+          "W1",
+          "andGate_3bit_1/b"
+        ]
+      },
+      "W2_1": {
+        "ports": [
+          "W2",
+          "andGate_3bit_2/b"
+        ]
+      },
+      "W3_1": {
+        "ports": [
+          "W3",
+          "andGate_3bit_3/b"
+        ]
+      },
+      "orGate_3bit_2_0_e": {
+        "ports": [
+          "orGate_3bit_2_0/e",
+          "f"
+        ]
+      }
+    }
+  }
+}

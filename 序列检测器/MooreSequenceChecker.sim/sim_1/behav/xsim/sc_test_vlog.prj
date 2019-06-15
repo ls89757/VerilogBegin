@@ -1,0 +1,12 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../MooreSequenceChecker.srcs/sources_1/new/SequenceChecker.v" \
+"../../../../MooreSequenceChecker.srcs/sources_1/new/ShiftRegister.v" \
+"../../../../MooreSequenceChecker.srcs/sources_1/new/Top.v" \
+"../../../../MooreSequenceChecker.srcs/sim_1/new/sc_test.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

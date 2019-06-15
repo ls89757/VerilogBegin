@@ -1,0 +1,6 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/SCL/Desktop/SCL_VERILOG/mux4x1_verilog/mux4x1_verilog.srcs/sources_1/new/mux4x1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mux4x1
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/SCL/Desktop/SCL_VERILOG/mux4x1_verilog/mux4x1_verilog.srcs/sim_1/new/mux4x1_sim.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mux4x1_sim
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/SCL/Desktop/SCL_VERILOG/mux4x1_verilog/mux4x1_verilog.sim/sim_1/behav/xsim/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl

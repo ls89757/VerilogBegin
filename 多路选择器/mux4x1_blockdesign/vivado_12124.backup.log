@@ -1,0 +1,157 @@
+#-----------------------------------------------------------
+# Vivado v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Mon May 13 00:11:56 2019
+# Process ID: 12124
+# Current directory: D:/SCL_VERILOG/project_4
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent6604 D:\SCL_VERILOG\project_4\project_4.xpr
+# Log file: D:/SCL_VERILOG/project_4/vivado.log
+# Journal file: D:/SCL_VERILOG/project_4\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/SCL_VERILOG/project_4/project_4.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/SCL_VERILOG/ipcore'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'G:/vivado/Vivado/2018.3/data/ip'.
+open_project: Time (s): cpu = 00:00:13 ; elapsed = 00:00:06 . Memory (MB): peak = 726.223 ; gain = 96.688
+open_bd_design {D:/SCL_VERILOG/project_4/project_4.srcs/sources_1/bd/mux4x1/mux4x1.bd}
+Adding cell -- xilinx.com:user:notGate_3bit:1.0 - notGate_3bit_0
+Adding cell -- xilinx.com:user:notGate_3bit:1.0 - notGate_3bit_1
+Adding cell -- xilinx.com:user:andGate_3bit:1.0 - andGate_3bit_0
+Adding cell -- xilinx.com:user:andGate_3bit:1.0 - andGate_3bit_1
+Adding cell -- xilinx.com:user:andGate_3bit:1.0 - andGate_3bit_2
+Adding cell -- xilinx.com:user:andGate_3bit:1.0 - andGate_3bit_3
+Adding cell -- xilinx.com:user:orGate_3bit_2:1.0 - orGate_3bit_2_0
+Successfully read diagram <mux4x1> from BD file <D:/SCL_VERILOG/project_4/project_4.srcs/sources_1/bd/mux4x1/mux4x1.bd>
+reset_run impl_1 -prev_step 
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Mon May 13 00:13:50 2019] Launched impl_1...
+Run output will be captured here: D:/SCL_VERILOG/project_4/project_4.runs/impl_1/runme.log
+reset_run synth_1
+WARNING: [Vivado 12-1017] Problems encountered:
+1. PID not specified
+2. Failed to delete one or more files in run directory D:/SCL_VERILOG/project_4/project_4.runs/synth_1
+
+launch_runs synth_1 -jobs 4
+[Mon May 13 00:14:00 2019] Launched synth_1...
+Run output will be captured here: D:/SCL_VERILOG/project_4/project_4.runs/synth_1/runme.log
+open_run synth_1 -name synth_1
+Design is defaulting to impl run constrset: constrs_1
+Design is defaulting to synth run part: xc7a100tcsg324-1
+INFO: [Project 1-454] Reading design checkpoint 'd:/SCL_VERILOG/project_4/project_4.srcs/sources_1/bd/mux4x1/ip/mux4x1_andGate_3bit_0_0/mux4x1_andGate_3bit_0_0.dcp' for cell 'andGate_3bit_0'
+INFO: [Project 1-454] Reading design checkpoint 'd:/SCL_VERILOG/project_4/project_4.srcs/sources_1/bd/mux4x1/ip/mux4x1_andGate_3bit_0_1/mux4x1_andGate_3bit_0_1.dcp' for cell 'andGate_3bit_1'
+INFO: [Project 1-454] Reading design checkpoint 'd:/SCL_VERILOG/project_4/project_4.srcs/sources_1/bd/mux4x1/ip/mux4x1_andGate_3bit_0_2/mux4x1_andGate_3bit_0_2.dcp' for cell 'andGate_3bit_2'
+INFO: [Project 1-454] Reading design checkpoint 'd:/SCL_VERILOG/project_4/project_4.srcs/sources_1/bd/mux4x1/ip/mux4x1_andGate_3bit_0_3/mux4x1_andGate_3bit_0_3.dcp' for cell 'andGate_3bit_3'
+INFO: [Project 1-454] Reading design checkpoint 'd:/SCL_VERILOG/project_4/project_4.srcs/sources_1/bd/mux4x1/ip/mux4x1_notGate_3bit_0_0/mux4x1_notGate_3bit_0_0.dcp' for cell 'notGate_3bit_0'
+INFO: [Project 1-454] Reading design checkpoint 'd:/SCL_VERILOG/project_4/project_4.srcs/sources_1/bd/mux4x1/ip/mux4x1_notGate_3bit_0_1/mux4x1_notGate_3bit_0_1.dcp' for cell 'notGate_3bit_1'
+INFO: [Project 1-454] Reading design checkpoint 'd:/SCL_VERILOG/project_4/project_4.srcs/sources_1/bd/mux4x1/ip/mux4x1_orGate_3bit_2_0_0/mux4x1_orGate_3bit_2_0_0.dcp' for cell 'orGate_3bit_2_0'
+INFO: [Project 1-479] Netlist was created with Vivado 2018.3
+INFO: [Device 21-403] Loading part xc7a100tcsg324-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+Parsing XDC File [D:/SCL_VERILOG/project_4/project_4.srcs/constrs_1/new/a.xdc]
+Finished Parsing XDC File [D:/SCL_VERILOG/project_4/project_4.srcs/constrs_1/new/a.xdc]
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1067.898 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+open_run: Time (s): cpu = 00:00:14 ; elapsed = 00:00:09 . Memory (MB): peak = 1212.738 ; gain = 380.633
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1765.047 ; gain = 0.000
+INFO: [Timing 38-480] Writing timing data to binary archive.
+Writing placer database...
+Writing XDEF routing.
+Writing XDEF routing logical nets.
+Writing XDEF routing special nets.
+Write XDEF Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.047 . Memory (MB): peak = 1765.047 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1765.047 ; gain = 0.000
+INFO: [Vivado_Tcl 4-424] Cannot write hardware definition file as there are no IPI block design hardware handoff files present
+[Mon May 13 00:16:42 2019] Launched impl_1...
+Run output will be captured here: D:/SCL_VERILOG/project_4/project_4.runs/impl_1/runme.log
+open_hw
+connect_hw_server
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+INFO: [Labtools 27-2222] Launching hw_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+****** Xilinx hw_server v2018.3
+  **** Build date : Dec  7 2018-00:40:27
+    ** Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210292708779A
+set_property PROGRAM.FILE {D:/SCL_VERILOG/project_4/project_4.runs/impl_1/mux4x1.bit} [get_hw_devices xc7a100t_0]
+current_hw_device [get_hw_devices xc7a100t_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a100t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a100t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+set_property PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property PROGRAM.FILE {D:/SCL_VERILOG/project_4/project_4.runs/impl_1/mux4x1.bit} [get_hw_devices xc7a100t_0]
+program_hw_devices [get_hw_devices xc7a100t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a100t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+close_hw
+open_bd_design {D:/SCL_VERILOG/project_4/project_4.srcs/sources_1/bd/mux4x1/mux4x1.bd}
+set_property location {-410 -405} [get_bd_ports W3]
+set_property location {-410 -427} [get_bd_ports W3]
+set_property location {-400 -613} [get_bd_ports W0]
+set_property location {-406 -594} [get_bd_ports W0]
+set_property location {-406 -529} [get_bd_ports W1]
+set_property location {-406 -481} [get_bd_ports W2]
+set_property location {-422 -144} [get_bd_ports S1]
+set_property location {1 -273 -122} [get_bd_cells notGate_3bit_1]
+set_property location {2 11 -297} [get_bd_cells andGate_3bit_2]
+set_property location {2 26 -321} [get_bd_cells andGate_3bit_2]
+set_property location {2 36 -205} [get_bd_cells andGate_3bit_3]
+set_property screensize {101 72} [get_bd_cells notGate_3bit_1]
+set_property screensize {76 38} [get_bd_cells notGate_3bit_0]
+set_property screensize {64 14} [get_bd_cells notGate_3bit_1]
+set_property screensize {89 112} [get_bd_cells andGate_3bit_1]
+set_property screensize {102 120} [get_bd_cells andGate_3bit_1]
+set_property screensize {111 98} [get_bd_cells andGate_3bit_3]
+create_bd_cell -type ip -vlnv xilinx.com:user:andGate_3bit:1.0 andGate_3bit_4
+delete_bd_objs [get_bd_cells andGate_3bit_4]
+set_property location {2 -1 -297} [get_bd_cells andGate_3bit_2]
+set_property screensize {103 100} [get_bd_cells notGate_3bit_1]
+set_property screensize {103 100} [get_bd_cells notGate_3bit_0]
+set_property location {497 -384} [get_bd_ports f]
+WARNING: [IP_Flow 19-4318] IP-XACT file does not exist: d:/SCL_VERILOG/ipcore/andGate_3bit/component.xml. It will be created.
+update_ip_catalog -rebuild -scan_changes
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/SCL_VERILOG/ipcore'.
+report_ip_status -name ip_status
+set_property screensize {194 86} [get_bd_cells andGate_3bit_3]
+set_property screensize {144 80} [get_bd_cells andGate_3bit_3]
+set_property screensize {111 90} [get_bd_cells andGate_3bit_3]
+set_property screensize {99 96} [get_bd_cells andGate_3bit_3]
+set_property screensize {96 84} [get_bd_cells andGate_3bit_2]
+set_property location {2 10 -181} [get_bd_cells andGate_3bit_3]
+set_property screensize {98 60} [get_bd_cells andGate_3bit_1]
+set_property location {2 17 -428} [get_bd_cells andGate_3bit_1]
+set_property screensize {110 62} [get_bd_cells andGate_3bit_0]
+set_property screensize {103 88} [get_bd_cells andGate_3bit_0]
+set_property location {2 20 -545} [get_bd_cells andGate_3bit_0]
+set_property screensize {114 108} [get_bd_cells orGate_3bit_2_0]
+set_property location {1 -247 -635} [get_bd_cells notGate_3bit_0]
+set_property location {1 -278 -502} [get_bd_cells notGate_3bit_1]
+set_property location {-436 -245} [get_bd_ports W3]
+set_property location {-426 -297} [get_bd_ports W2]
+set_property location {-423 -373} [get_bd_ports W1]
+set_property location {-417 -418} [get_bd_ports W0]
+set_property location {-420 -612} [get_bd_ports S0]
+set_property location {-426 -547} [get_bd_ports S1]
+set_property location {-422 -506} [get_bd_ports S1]
+set_property location {-417 -498} [get_bd_ports S1]
+set_property location {1 -246 -615} [get_bd_cells notGate_3bit_0]
+set_property location {-418 -483} [get_bd_ports S1]
+save_bd_design
+Wrote  : <D:\SCL_VERILOG\project_4\project_4.srcs\sources_1\bd\mux4x1\mux4x1.bd> 
+Wrote  : <D:/SCL_VERILOG/project_4/project_4.srcs/sources_1/bd/mux4x1/ui/bd_687a6dfd.ui> 
+exit
+INFO: [Common 17-206] Exiting Vivado at Mon May 13 00:35:50 2019...

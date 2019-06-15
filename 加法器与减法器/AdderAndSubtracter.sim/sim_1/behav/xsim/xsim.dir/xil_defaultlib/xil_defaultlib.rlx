@@ -1,0 +1,18 @@
+0.6
+2018.3
+Dec  7 2018
+00:33:28
+C:/Users/SCL/AdderAndSubtracter/AdderAndSubtracter.sim/sim_1/behav/xsim/glbl.v,1544155481,verilog,,,,glbl,,,,,,,,
+C:/Users/SCL/AdderAndSubtracter/AdderAndSubtracter.srcs/sim_1/new/AS_sim.v,1557462115,verilog,,,,AS_sim,,,,,,,,
+C:/Users/SCL/AdderAndSubtracter/AdderAndSubtracter.srcs/sim_1/new/Adder_Sim.v,1557290892,verilog,,,,Adder_Sim,,,,,,,,
+C:/Users/SCL/AdderAndSubtracter/AdderAndSubtracter.srcs/sim_1/new/Drive_DigitDisplay_Sim.v,1557298008,verilog,,,,Drive_DigitDisplay_Sim,,,,,,,,
+C:/Users/SCL/AdderAndSubtracter/AdderAndSubtracter.srcs/sim_1/new/Full_Adder_Sim.v,1557289717,verilog,,,,Full_Adder_Sim,,,,,,,,
+C:/Users/SCL/AdderAndSubtracter/AdderAndSubtracter.srcs/sim_1/new/Half_Adder_Sim.v,1557288908,verilog,,,,Half_Adder_Sim,,,,,,,,
+C:/Users/SCL/AdderAndSubtracter/AdderAndSubtracter.srcs/sim_1/new/adder_display_sim.v,1557330572,verilog,,,,adder_display_sim,,,,,,,,
+C:/Users/SCL/AdderAndSubtracter/AdderAndSubtracter.srcs/sources_1/new/Adder4bit.v,1557368363,verilog,,C:/Users/SCL/AdderAndSubtracter/AdderAndSubtracter.srcs/sources_1/new/FullAdder.v,,Adder4bit,,,,,,,,
+C:/Users/SCL/AdderAndSubtracter/AdderAndSubtracter.srcs/sources_1/new/Adder5bit.v,1557453989,verilog,,C:/Users/SCL/AdderAndSubtracter/AdderAndSubtracter.srcs/sources_1/new/AdderSubtracterDisplay.v,,Adder5bit,,,,,,,,
+C:/Users/SCL/AdderAndSubtracter/AdderAndSubtracter.srcs/sources_1/new/AdderDisplay.v,1557336310,verilog,,C:/Users/SCL/AdderAndSubtracter/AdderAndSubtracter.srcs/sources_1/new/DriveDigitDisplay.v,,AdderDisplay,,,,,,,,
+C:/Users/SCL/AdderAndSubtracter/AdderAndSubtracter.srcs/sources_1/new/AdderSubtracterDisplay.v,1557462878,verilog,,C:/Users/SCL/AdderAndSubtracter/AdderAndSubtracter.srcs/sources_1/new/DriveDigitDisplay.v,,AdderSubtracterDisplay,,,,,,,,
+C:/Users/SCL/AdderAndSubtracter/AdderAndSubtracter.srcs/sources_1/new/DriveDigitDisplay.v,1558955918,verilog,,C:/Users/SCL/AdderAndSubtracter/AdderAndSubtracter.srcs/sim_1/new/Drive_DigitDisplay_Sim.v,,DriveDigitDisplay,,,,,,,,
+C:/Users/SCL/AdderAndSubtracter/AdderAndSubtracter.srcs/sources_1/new/FullAdder.v,1557289491,verilog,,C:/Users/SCL/AdderAndSubtracter/AdderAndSubtracter.srcs/sources_1/new/HalfAdd.v,,FullAdder,,,,,,,,
+C:/Users/SCL/AdderAndSubtracter/AdderAndSubtracter.srcs/sources_1/new/HalfAdd.v,1557288751,verilog,,C:/Users/SCL/AdderAndSubtracter/AdderAndSubtracter.srcs/sim_1/new/Adder_Sim.v,,HalfAdd,,,,,,,,

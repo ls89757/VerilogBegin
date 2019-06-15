@@ -1,0 +1,8 @@
+0.6
+2018.3
+Dec  7 2018
+00:33:28
+C:/Users/SCL/LiftLogic2/LiftLogic2.sim/sim_1/behav/xsim/glbl.v,1544155481,verilog,,,,glbl,,,,,,,,
+C:/Users/SCL/LiftLogic2/LiftLogic2.srcs/sim_1/new/lift_sim.v,1559834372,verilog,,,,lift_sim,,,,,,,,
+C:/Users/SCL/LiftLogic2/LiftLogic2.srcs/sources_1/new/driveDigit.v,1559806313,verilog,,C:/Users/SCL/LiftLogic2/LiftLogic2.srcs/sources_1/new/lift.v,,driveDigit,,,,,,,,
+C:/Users/SCL/LiftLogic2/LiftLogic2.srcs/sources_1/new/lift.v,1559834265,verilog,,C:/Users/SCL/LiftLogic2/LiftLogic2.srcs/sim_1/new/lift_sim.v,,lift,,,,,,,,
